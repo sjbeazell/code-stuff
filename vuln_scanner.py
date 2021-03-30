@@ -40,5 +40,7 @@ def main():
             if banner:
                 print "[+]  " + ip + "/" + str(port) + " : " + banner
                 checkVulns(banner, filename)
+                
+main()
         
         
